@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-text-color : #333333;
+    --main-bg-color : #fff;
+    --main-font-weight : 500;
+}
+.hero-services{
+    padding-top: 118px;
+    padding-bottom: 140px;
+    background-image: url("../images/usligi-to\'ti.png");
+    background-position: calc(50% + 505px ) calc(50% + -31px);
+    background-repeat: no-repeat;
+}
+.hero-services {
+}
+.hero-services__title-wrap {
+    margin-left: 110px;
+    width: 447px;
+}
+.hero-services__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--main-text-color);
+}
+.hero-services__title-wrap p{
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.services-blok__wrap {
+}
+.services-blok__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    list-style: none;
+    grid-gap: 15px;
+}
+.services-blok__item {
+    position: relative;
+    width: 305px;
+    padding-left: 53px;
+    padding-right: 22px;
+    padding-bottom: 45px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    background-image: url('../images/pet-card.svg');
+    background-repeat: no-repeat;
+    background-size: 155px 143px;
+    background-position: 150px -11px;
+    transition: filter 0.3s ease;
+}
+.services-blok__item:hover{
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
+}
+.services-blok__item::before{
+    position: absolute;
+    top: 51px;
+    left: 53px;
+    content: '';
+    width: 54px;
+    height: 77px;
+    display: inline-block;
+    background-image: url("../images/doctor\ 1.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.services-blok__item:nth-child(2):before{
+    width: 54px;
+    height: 77px;
+    background-image: url("../images/usligi-doctor-female.svg");
+}
+.services-blok__item:nth-child(2) .services-blok__btn{
+    background: #78C0DE;
+}
+.services-blok__item:nth-child(3):before{
+    width: 72px;
+    height: 77px;
+    background-image: url("../images/xirurgichiskiy.svg");
+}
+.services-blok__item:nth-child(4):before{  
+    width: 76px;
+    height: 76px;
+    background-image: url("../images/dermatolog.svg");
+}
+.services-blok__item:nth-child(5):before{
+    width: 78px;
+    height: 78px;
+    background-image: url("../images/labaratorya.svg");
+}
+.services-blok__item:nth-child(6):before{
+    width: 76px;
+    height: 76px;
+    background-image: url("../images/usligi-oftamoplog.svg");
+}
+.services-blok__item:nth-child(7):before{
+    width: 77px;
+    height: 77px;
+    background-image: url("../images/usligi-uzi.svg");
+}
+.services-blok__item:nth-child(8):before{
+    width: 40px;
+    height: 77px;
+    background-image: url("../images/usligi-bee.svg");
+}
+.services-blok__item:nth-child(9):before{
+    width: 87px;
+    height: 78px;
+    background-image: url("../images/usligi-pasport.svg");
+}
+.services-blok__item:nth-child(10):before{
+    width: 68px;
+    height: 76px;
+    background-image: url("../images/usligi-vaksina.svg");
+}
+.services-blok__item:nth-child(11):before{
+    width: 78px;
+    height: 78px;
+    background-image: url("../images/V-stamotolog.svg");
+}
+.services-blok__item:nth-child(12):before{
+    width: 77px;
+    height: 77px;
+    background-image: url("../images/usligi-vizov-dom.svg");
+}
+.services-blok__text{
+    width: 229px;
+}
+.services-blok__text h3{
+    margin-top: 157px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    color: var(--main-text-color);
+}
+.services-blok__text p{
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.services-blok__btn{
+    margin-top: 26px;
+    padding: 15px 29px 14px 30px;
+    display: inline-block;
+    text-decoration: none;
+    background: #FFBD54;
+    border-radius: 3px;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.services-blok__btn:hover{
+    background: #333333;
+    color: #FFBD54;
+}
+.services-blok__btn:active{
+    opacity: 0.6;
+}
+.services-blok__item:nth-child(2) .services-blok__btn,
+.services-blok__item:nth-child(4) .services-blok__btn,
+.services-blok__item:nth-child(6) .services-blok__btn,
+.services-blok__item:nth-child(8) .services-blok__btn,
+.services-blok__item:nth-child(10) .services-blok__btn,
+.services-blok__item:nth-child(12) .services-blok__btn{
+    background: #78C0DE;
+}
+.services-blok__item:nth-child(2) .services-blok__btn:hover,
+.services-blok__item:nth-child(4) .services-blok__btn:hover,
+.services-blok__item:nth-child(6) .services-blok__btn:hover,
+.services-blok__item:nth-child(8) .services-blok__btn:hover,
+.services-blok__item:nth-child(10) .services-blok__btn:hover,
+.services-blok__item:nth-child(12) .services-blok__btn:hover{
+    color: #fff;
+}
+.site-footer--open-gap{
+    margin-top: 168px;
+}

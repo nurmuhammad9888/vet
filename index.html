@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vet</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Veterinary-clinic</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
   <!-- Site header top start -->
@@ -16,7 +16,9 @@
       <div class="container">
         <ul class="site-header__top-list">
           <li class="site-header__top__item">
-            <a href="#" class="site-header__top__link">г. Мариуполь, проспект Победы, 48а</a>
+            <address>
+              <a href="#" class="site-header__address">г. Мариуполь, проспект Победы, 48а</a>
+            </address>
           </li>
           <li class="site-header__top__item">
             <a class="site-header__top__link" href="tel:0676347574" >(067) 634 -75 - 74</a>
@@ -33,36 +35,38 @@
     <!-- Site header top finish -->
     
     <!-- Site header start -->
-    <div class="container">
-      <div class="site-header__inner">
-        <a class="logo" href="./index.html"> <img src="./images/logo.svg" width="177" height="86"
-          alt="site logo"></a>
-          <nav class="site-header__nav">
-            <ul class="site-header__list">
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">Главная</a>
-              </li>
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">О Клинике</a>
-              </li>
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">Наши Услуги</a>
-              </li>
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">Полезные Статьи</a>
-              </li>
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">FAQ</a>
-              </li>
-              <li class="site-header__item">
-                <a href="#" class="site-header__link">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="site-header__btn">
-            <a href="#" class="site-header__btn-text">
-              Задать вопрос
-            </a>
+    <div class="site-header__inner-wrap">
+      <div class="container">
+        <div class="site-header__inner">
+          <a class="logo" href="./index.html"> <img src="./images/logo.svg" width="177" height="86"
+            alt="site logo"></a>
+            <nav class="site-header__nav">
+              <ul class="site-header__list">
+                <li class="site-header__item">
+                  <a href="./index.html" class="site-header__link">Главная</a>
+                </li>
+                <li class="site-header__item">
+                  <a href="#" class="site-header__link">О Клинике</a>
+                </li>
+                <li class="site-header__item">
+                  <a href="./services.html" class="site-header__link">Наши Услуги</a>
+                </li>
+                <li class="site-header__item">
+                  <a href="#" class="site-header__link">Полезные Статьи</a>
+                </li>
+                <li class="site-header__item">
+                  <a href="./faq.html" class="site-header__link">FAQ</a>
+                </li>
+                <li class="site-header__item">
+                  <a href="#" class="site-header__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="site-header__btn">
+              <a href="#" class="site-header__btn-text">
+                Задать вопрос
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -71,7 +75,6 @@
     
     <!-- Site main start -->
     <main class="site-main">
-      
       <!-- Hero section start -->
       <section class="hero">
         <div class="container">
@@ -121,7 +124,7 @@
                 </a>
               </li>
               <li class="services__item">
-                <a class="services__link" href="#">
+                <a class="services__link services__link--line" href="#">
                   <p> Дерматология</p>
                 </a>
               </li>
@@ -131,8 +134,7 @@
                 </a>
               </li>
               <li class="services__item">
-                <a class="services__link" href="#">
-                  
+                <a class="services__link services__link--line" href="#">
                   <p> Офтальмология</p>
                 </a>
               </li>
@@ -143,7 +145,7 @@
                   </a>
                 </li>
                 <li class="services__item">
-                  <a class="services__link" href="#">
+                  <a class="services__link services__link--line" href="#">
                     <p>
                       Чипирование
                     </p>
@@ -156,25 +158,27 @@
                     </a>
                   </li>
                   <li class="services__item">
-                    <a class="services__link" href="#">
+                    <a class="services__link services__link--line" href="#">
                       <p>
                         Вакцинация</p>
                       </a>
                     </li>
                     <li class="services__item">
-                      <a class="services__link" href="#">
+                      <a class="services__link services__link--line" href="#">
                         <p>
                           Стоматология
                         </p>
                       </a>
                     </li>
                     <li class="services__item">
-                      <a class="services__link" href="#">
+                      <a class="services__link services__link--line" href="#">
                         <p>
                           Вызов на дом</p>
                         </a>
                       </li>
                     </ul>
+                    <button class="services__button-left"></button>
+                    <button class="services__button-right"></button>
                   </div>
                   <div class="initial-inspection">
                     <img class="initial-inspection__img" src="./images/osmotor-jpg.jpg" width="590" height="332"
@@ -203,8 +207,8 @@
                   <div class="article__title">
                     <h2>Будь в курсе событий</h2>
                     <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
-                      <input class="article__search" type="search" name="search" aria-label="your search"
-                      placeholder="Укажите Ваш email адрес" minlength="3">
+                      <input class="article__email" type="email" name="email" aria-label="your email"
+                      placeholder="Укажите Ваш email адрес" >
                       <button class="article__button" type="submit">Подписаться</button>
                     </form>
                   </div>
@@ -289,7 +293,6 @@
                         <input class="feedback__input" type="email" name="email" aria-label="your email" placeholder="Email для обратной связи" required>
                         <textarea class="feedback__textarea" name="describe" cols="30" rows="10" aria-label="Please describe your question"
                         placeholder="Например: в каком возрасте можно прививать от бешенства?">
-                        
                       </textarea>
                       <button class="feedback__submit" type="submit">Задать нам вопрос</button>
                     </form>
@@ -312,23 +315,23 @@
                 </div>
                 <ul class="site-footer__list">
                   <li class="site-footer__item">
-                    <a href="#" class="site-footer__link">Главная</a>
+                    <a href="index.html" class="site-footer__link">Главная</a>
                     <a href="#" class="site-footer__link">О Клинике</a>
-                    <a href="#" class="site-footer__link">Наши Услуги</a>
+                    <a href="./services.html" class="site-footer__link">Наши Услуги</a>
                   </li>
                   <li class="site-footer__item">
                     <a href="#" class="site-footer__link">Полезные Статьи</a>
-                    <a href="#" class="site-footer__link">FAQ</a>
+                    <a href="./faq.html" class="site-footer__link">FAQ</a>
                     <a href="#" class="site-footer__link">Контакты</a>
                   </li>
                 </ul>
                 <ul class="site-footer__list-right">
                   <li class="site-footer__item-right">
-                    <p>Пн - Пт 8:00 - 18:00</p>
-                    <p>Сб - Вс 8:00 - 14:00</p>
+                    <time datetime="2022-08-08 07:00">Пн - Пт 8:00 - 18:00</time>
+                    <time datetime="2022-08-08 07:00">Сб - Вс 8:00 - 14:00</time>
                   </li>
                   <li class="site-footer__item-rightt">
-                    <p>г. Мариуполь, <br> проспект Победы, 48а</p>
+                    <address><a href="#"> г. Мариуполь, <br> проспект Победы, 48а</a></address>
                   </li>
                   <li class="site-footer__item-righttt">
                     <a href="tel:0676347574">(067) 634 -75 - 74</a>
@@ -338,11 +341,8 @@
                 </ul>
               </div>
               <p class="copy">© 2020 example. All Rights Reserved.</p>
-              
             </div>
-            
           </footer>
           <!-- Site footer finish -->
         </body>
-        
         </html>

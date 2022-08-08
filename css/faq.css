@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-text-color : #333333;
+    --main-bg-color : #fff;
+    --main-font-weight : 500;
+}
+.hero-faq {
+    margin-left: 183px;
+}
+.hero-faq__title-wrap {
+    position: relative;
+    margin-top: 118px;
+    width: 447px;
+}
+.hero-faq__title-wrap::after{
+    position: absolute;
+    top: -40px;
+    right: -930px;
+    content: "";
+    display: inline-block;
+    width: 569px;
+    height: 466px;
+    background-image: url("../images/faq-cat.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-faq__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--main-text-color);
+}
+.hero-faq__title-wrap p{
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.hero-faq__title-wrap a{
+    margin-top: 35px;
+    padding: 15px 38px 14px 39px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    background: #78C0DE;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.hero-faq__title-wrap a::before{
+    margin-right: 6px;
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../images/osmotor-zapisat.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-faq__blok {
+    margin-top: 93px;
+}
+.hero-faq__blok-list{
+    position: relative;
+}
+.hero-faq__blok-list::before{
+    position: absolute;
+    bottom: -210px;
+    right: -150px;
+    content: "";
+    display: inline-block;
+    width: 654px;
+    height: 640px;
+    background-image: url(../images/faq-patt.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-faq__time-wrap{
+    display: flex;
+    align-items: center;
+}
+.hero-faq__blok-item {
+    margin-bottom: 18px;
+    padding-top: 29px;
+    padding-bottom: 44px;
+    padding-left: 63px;
+    width: 752px;
+    list-style: none;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-faq__blok-item:nth-child(2),
+.hero-faq__blok-item:nth-child(3){
+    padding-bottom: 32px;
+}
+.hero-faq__blok-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-flex;
+    align-items: center;
+    align-items: center;
+    color: #333333;
+}
+.hero-faq__blok-time::before{
+    margin-right: 6px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/faq-pat.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-faq__blok--pet:before{
+    background-image: url(../images/faq-pet-two.png);
+}
+.hero-faq__blok-item span{
+    margin-left: 28px;
+    display: inline-block;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #78C0DE;
+}
+.hero-faq__blok-details{
+    width: 585px;
+    transition: 0.5s ease;
+}
+.hero-faq__blok-summary{
+    position: relative;
+    padding-top: 12px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+}
+.hero-faq__blok-summary::after{
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    background-image: url(../images/faq-arrow.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+}
+.hero-faq__blok-summary--clock::after{
+    width: 21px;
+    height: 21px;
+    background-image: url(../images/faq-clock.svg)
+}
+
+.hero-faq__blok-details[open] .hero-faq__blok-summary::after  {
+    transform: rotate(180deg);
+}
+.hero-faq__blok-details p{
+    padding: 23px 0 43px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.hero-faq__blok--disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.hero-faq__blok-item:nth-child(3) .hero-faq__blok-details[open] .hero-faq__blok-summary::after{
+    transform: rotate(0);
+}
+.hero-faq__blok-item:nth-child(6) .hero-faq__blok-details[open] .hero-faq__blok-summary::after{
+    transform: rotate(0);
+}
