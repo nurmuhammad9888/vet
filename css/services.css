@@ -34,8 +34,7 @@
     line-height: 20px;
     color: #949494;
 }
-.services-blok__wrap {
-}
+
 .services-blok__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

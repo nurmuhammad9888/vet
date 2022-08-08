@@ -125,7 +125,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.hero-faq__blok--pet:before{
+.hero-faq__blok-time--pet:before{
     background-image: url(../images/faq-pet-two.png);
 }
 .hero-faq__blok-item span{
@@ -178,7 +178,7 @@
     line-height: 20px;
     color: #949494;
 }
-.hero-faq__blok--disabled{
+.hero-faq__blok-item--disabled{
     opacity: 0.5;
     cursor: not-allowed;
 }
