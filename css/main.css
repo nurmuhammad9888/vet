@@ -589,7 +589,8 @@ body{
   line-height: 20px;
   color: #949494;
 }
-.initial-inspection__btn-white {
+.initial-inspection__btn-,
+.hero-inspection__btn-white {
   margin-top: 29px;
   padding: 14px 36px 15px 63px;
   display: -webkit-inline-box;
@@ -606,14 +607,17 @@ body{
   color: #FFFFFF;
   text-decoration: none;
 }
-.initial-inspection__btn-white:hover{
+.initial-inspection__btn-white:hover,
+.hero-inspection__btn-white:hover{
   background: var(--main-text-color);
   color: #FFBD54;
 }
-.initial-inspection__btn-white:active{
+.initial-inspection__btn-white:active,
+.hero-inspection__btn-white:active{
   opacity: 0.6;
 }
-.initial-inspection__btn-white::before{
+.initial-inspection__btn-white::before,
+.hero-inspection__btn-white::before{
   margin-right: 6px;
   content: "";
   display: inline-block;
@@ -625,7 +629,8 @@ body{
   background-repeat: no-repeat;
 }
 
-.initial-inspection__btn-black {
+.initial-inspection__btn-black,
+.hero-inspection__btn-black  {
   margin-left: 21px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -642,7 +647,8 @@ body{
   color: #FFFFFF;
   text-decoration: none;
 }
-.initial-inspection__btn-black::before{
+.initial-inspection__btn-black::before
+,.hero-inspection__btn-black::before{
   margin-right: 6px;
   content: "";
   display: inline-block;
@@ -653,11 +659,13 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
-.initial-inspection__btn-black:hover{
+.initial-inspection__btn-black:hover,
+.hero-inspection__btn-black:hover{
   background: #FFBD54;
   color: var(--main-text-color);
 }
-.initial-inspection__btn-black:active{
+.initial-inspection__btn-black:active,
+.hero-inspection__btn-black:active{
   opacity: 0.6;
 }
 /*  Services finish  */

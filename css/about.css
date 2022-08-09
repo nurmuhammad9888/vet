@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ABOT SECTION START */
+.hero-about__wrap {
+    position: relative;
+    padding-top: 117px;
+    padding-bottom: 288px;
+    margin-left: 110px;
+    background-image: url("../images/about-vet-gril.png");
+    background-size: 448px 545px;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 300px) calc(50% + -7px);
+}
+.hero-about__wrap ::before{
+    position: absolute;
+    top: 160px;
+    left: -78px;
+    content: '';
+    width: 669px;
+    height: 236px;
+    background-image: url("../images/about-pet.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero-about__text-wrap {
+    position: relative;
+    width: 411px;
+}
+.hero-about__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+.hero-about__text-wrap p{
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #949494;
+}
+
+.hero-about__blok-wrap {
+    width: 1520px;
+    margin: 0 auto;
+}
+.hero-about__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-about__item:nth-child(1){
+    background: #FFFFFF;
+}
+.hero-about__item-img-one{
+    width: 773px;
+    height: 449px;
+}
+.hero-about__text-content {
+    width: 568px;
+    margin-left: 112px;
+    margin-right: 66px;
+}
+.hero-about__text-content p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+}
+.hero-about__yellow {
+    color: #FFBD54;
+}
+.hero-about__text {
+    margin-left: 127px;
+    width: 494px;
+}
+.hero-about__text p{
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494
+}
+.hero-about__item-img{
+    width: 797px;
+    height: 532px;
+    margin-left: 100px;
+}
+.hero-about__blue {
+    color: #78C0DE;
+}
+.hero-about__carusel {
+    width: 1520px;
+    margin: 0 auto;
+    display: flex;
+}
+.carusel__blok {
+    display: flex;
+}
+.carusel__blok-text {
+    width: 416px;
+    margin-top: 70px;
+    margin-right: 140px;
+    margin-left: 117px;
+}
+.carusel__blok-text h3{
+    width: 416px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 48px;
+    color: #333333;
+}
+.carusel__blok-text p{
+    margin-top: 24px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.carusel__btn{
+    margin-top: 98px;
+    display: inline-block;
+    margin-right: 70px;
+}
+.carusel__numbir{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    color: #949494;
+}
+.carusel__numbir sub{
+    font-size: 16px;
+}
+.carusel__numbir sup{
+    font-size: 20px;
+    color: #333333;
+}
+/* IMG */
+.carusel__blok{
+    margin-left: 30px;
+}
+.carusel__blok img{
+    margin-right: 20px;
+}
+/* ABOT SECTION FINISH */
+.site-footer--hero-about{
+    margin-top: 145px;
+}

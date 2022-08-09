@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.hero-inspection {
-}
+
+/* Hero inspection section start  */
 .hero-inspection__img {
-    width: 100%;
+    width: 1520px;
+    margin: 0 auto;
 }
 .hero-inspection__img img{
     width: 100%;
@@ -112,7 +113,6 @@
     line-height: 25px;
     color: #000000;
 }
-
 .inspection__item p{
     margin-top: 13px;
     margin-left: 30px;
@@ -121,13 +121,34 @@
     line-height: 20px;
     color: #949494;
 }
+.hero-inspection__btn-black{
+    margin-top: 64px;
+}
+/*  Hero section inspection finish */
+
+/* Article section start  */
 .inspection-article {
+    margin-top: 174px;
     width: 100%;
     background-image: url("../images/osmotor-contact-bg.svg");
 }
 .inspection-article__list {
+    position: relative;
     list-style: none;
     display: flex;
+}
+.inspection-article__list::before{
+    position: absolute;
+    top: -21px;
+    right: -190px;
+    z-index: 1;
+    content: '';
+    width: 811px;
+    height: 636px;
+    background-image: url("../images/article-dog.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .inspection-article__item{
     margin-top: 64px;
@@ -150,6 +171,8 @@
     color: #FFFFFF;
 }
 .inspection-article__form{
+    position: relative;
+    z-index: 3;
     margin-top: 0;
 }
 .inspection-article__input,
@@ -159,3 +182,7 @@
 .inspection-article__btn{
     margin-bottom: 65px;
 }
+.site-footer--inspection{
+    margin-top: 187px;
+}
+/*  Article section finish */
