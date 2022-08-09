@@ -58,7 +58,7 @@
                   <a href="./faq.html" class="site-header__link">FAQ</a>
                 </li>
                 <li class="site-header__item">
-                  <a href="#" class="site-header__link">Контакты</a>
+                  <a href="./contact.html" class="site-header__link">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -87,7 +87,7 @@
                 максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
               </p>
             </div>
-            <a class="hero__section-btn" href="#">Наши услуги</a>
+            <a class="hero__section-btn" href="./services.html">Наши услуги</a>
           </div>
         </div>
       </section>
@@ -289,10 +289,10 @@
                         </p>
                       </div>
                       <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
-                        <input class="feedback__input" type="text" name="name" aria-label="your name" placeholder="Ваше имя" required>
+                        <input class="feedback__input" type="text" name="name" aria-label="your name" placeholder="Ваше имя" required minlength="5">
                         <input class="feedback__input" type="email" name="email" aria-label="your email" placeholder="Email для обратной связи" required>
                         <textarea class="feedback__textarea" name="describe" cols="30" rows="10" aria-label="Please describe your question"
-                        placeholder="Например: в каком возрасте можно прививать от бешенства?">
+                        placeholder="Например: в каком возрасте можно прививать от бешенства?" required minlength="5">
                       </textarea>
                       <button class="feedback__submit" type="submit">Задать нам вопрос</button>
                     </form>
@@ -306,7 +306,6 @@
           <!-- Site main finish -->
           
           <!-- Site footer start -->
-          
           <footer class="site-footer">
             <div class="container">
               <div class="site-footer__wrapper">
@@ -322,7 +321,7 @@
                   <li class="site-footer__item">
                     <a href="#" class="site-footer__link">Полезные Статьи</a>
                     <a href="./faq.html" class="site-footer__link">FAQ</a>
-                    <a href="#" class="site-footer__link">Контакты</a>
+                    <a href="./contact.html" class="site-footer__link">Контакты</a>
                   </li>
                 </ul>
                 <ul class="site-footer__list-right">
@@ -344,5 +343,29 @@
             </div>
           </footer>
           <!-- Site footer finish -->
+          
+          <!-- Modal start -->
+          <div class="modal">
+            <div class="modal__wrap">
+              <button class="modal__close-btn" type="button"></button>
+              <ul class="modal__list">
+                <li class="modal__item">
+                  <h3>Авторизация:</h3>
+                  <a href="#" class="modal__link">Войти через Google</a>
+                  <a href="#" class="modal__link">Войти через Facebook</a>
+                </li>
+                <li class="modal__item">
+                  <form class="modal__form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                    <h2>Задать вопрос</h2>
+                    <input class="modal__input-name" type="text" name="name" aria-label="your name" placeholder="Ваше имя" required minlength="5">
+                    <textarea class="modal__textarea" name="textarea"  cols="30" rows="10" aria-label="Please describe your question" placeholder="Опишите Ваш вопрос.                             Например: в каком возрасте можно прививать от бешенства?" minlength="5"></textarea>
+                    <button class="modal__btn" type="submit">Отправить </button>
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Modal finish -->
+          <script src="./js/main.js"></script>
         </body>
         </html>

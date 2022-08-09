@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-contact {
+    margin-left: 183px;
+    padding-top: 118px;
+    /* width: 487px;
+    height: 548px; */
+    background-image: url("../images/contact-dog.png");
+    background-size: contain;
+    background-position: calc(50% + 454px) calc(50% + 20px);
+    background-repeat: no-repeat;
+}
+.hero-contact__wrap {
+}
+.hero-contact__text {
+}
+.hero-contact__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+.hero-contact__title-wrap {
+    width: 447px;
+}
+.hero-contact__title-wrap p{
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.hero-contact__list {
+    margin-top: 117px;
+    display: flex;
+    list-style: none;
+}
+.hero-contact__item {
+    width: 153px;
+    margin-right: 118px;
+}
+.hero-contact__item::before{
+    margin-bottom: 30px;
+    content: "";
+    display: inline-block;
+    width: 71px;
+    height: 73px;
+    background-image: url("../images/contact-icon-phone.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-contact__item:nth-child(2):before{
+    width: 76px;
+    height: 71px;
+    background-image: url("../images/calendar-contact.svg");
+}
+.hero-contact__item:nth-child(3):before{
+    width: 46px;
+    height: 73px;
+    background-image: url("../images/contact-phone.svg");
+}
+.hero-contact__address {
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 21px;
+}
+.hero-contact__address a{
+    text-decoration: none;
+    color: #333333;
+}
+.hero-contact__time {
+    margin-bottom: 12px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.hero-contact__phone {
+    margin-bottom: 9px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+}
+.contact-map {
+    position: relative;
+    width: 1520px;
+    margin: 0 auto;
+}
+.contact-map::before{
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    content: '';
+    width: 934px;
+    height: 330px;
+    background-image: url("../images/contact-pet-grop.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-map__img{
+    width: 700px;
+    height: 466px;
+}
+.contact-map__text {
+    padding-top: 395px;
+}
+.contact-map__text h3{
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #333333;
+}
+.contact-map__wrap {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.contact-map__wrap::before{
+    position: absolute;
+    top: -297px;
+    left: 50px;
+    content: '';
+    width: 443px;
+    height: 342px;
+    background-image: url("../images/contact-dog-two.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.site-footer--contact{
+    margin-top: 206px;
+}

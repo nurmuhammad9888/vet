@@ -59,7 +59,7 @@
                                     <a href="./faq.html" class="site-header__link">FAQ</a>
                                 </li>
                                 <li class="site-header__item">
-                                    <a href="#" class="site-header__link">Контакты</a>
+                                    <a href="./contact.html" class="site-header__link">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -173,7 +173,7 @@
                         <li class="site-footer__item">
                             <a href="#" class="site-footer__link">Полезные Статьи</a>
                             <a href="./faq.html" class="site-footer__link">FAQ</a>
-                            <a href="#" class="site-footer__link">Контакты</a>
+                            <a href="./contact.html" class="site-footer__link">Контакты</a>
                         </li>
                     </ul>
                     <ul class="site-footer__list-right">
@@ -195,5 +195,29 @@
             </div>
         </footer>
         <!-- Site footer finish -->
+
+        <!-- Modal start -->
+        <div class="modal">
+            <div class="modal__wrap">
+                <button class="modal__close-btn" type="button"></button>
+                <ul class="modal__list">
+                    <li class="modal__item">
+                        <h3>Авторизация:</h3>
+                        <a href="#" class="modal__link" target="blank">Войти через Google</a>
+                        <a href="#" class="modal__link" target="blank">Войти через Facebook</a>
+                    </li>
+                    <li class="modal__item">
+                        <form class="modal__form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                            <h2>Задать вопрос</h2>
+                            <input class="modal__input-name" type="text" name="name" aria-label="your name" placeholder="Ваше имя" required minlength="5">
+                            <textarea class="modal__textarea" name="textarea"  cols="30" rows="10" aria-label="Please describe your question" placeholder="Опишите Ваш вопрос." required minlength="5"></textarea>
+                            <button class="modal__btn" type="submit">Отправить </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <!-- Modal finish -->
+        <script src="js/main.js"></script>
     </body>
     </html>

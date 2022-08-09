@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-inspection {
+}
+.hero-inspection__img {
+    width: 100%;
+}
+.hero-inspection__img img{
+    width: 100%;
+}
+.hero-inspection__wrap {
+}
+.hero-inspection__list {
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.hero-inspection__span{
+    margin-top: 33px;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.hero-inspection__span::before{
+    margin-right: 8px;
+    content: '';
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background-image: url("../images/cricle.svg");
+    background-size: contain;
+    background-position: center;
+}
+.hero-inspection__span:nth-child(3){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+.hero-inspection__span:nth-child(1)::before{
+    margin-right: -0px;
+    background-image: none;
+}
+.hero-inspection__item:nth-child(1) {
+    width: 640px;
+}
+.hero-inspection__title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+.hero-inspection__title-span{
+    color: #FFBD54;
+}
+.hero-inspection__text {
+    margin-top: 22px;
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.hero-inspection__text:nth-child(5){
+    margin-top: 28px;
+}
+.hero-inspection__text:nth-child(7){
+    padding-right: 140px;
+    margin-top: 28px;
+}
+.hero-inspection__btn {
+    margin-top: 64px;
+}
+.inspection__list-two{
+    margin-top: 31px;
+    
+}
+.inspection__item{
+    margin-top: 11px;
+    width: 305px;
+    list-style: none;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+.inspection__item time{
+    margin-top: 19px;
+    margin-left: 200px;
+    display: inline-flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;    
+    color: #949494;
+}
+.inspection__item h3{
+    margin-top: 3px;
+    margin-left: 30px;
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.inspection__item p{
+    margin-top: 13px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.inspection-article {
+    width: 100%;
+    background-image: url("../images/osmotor-contact-bg.svg");
+}
+.inspection-article__list {
+    list-style: none;
+    display: flex;
+}
+.inspection-article__item{
+    margin-top: 64px;
+    margin-left: 90px;
+}
+.inspection-article__item:nth-child(1){
+    width: 276px;
+}
+.inspection-article__item h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.inspection-article__item p{
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.inspection-article__form{
+    margin-top: 0;
+}
+.inspection-article__input,
+.inspection-article__textarea{
+    margin-top: 14px;
+}
+.inspection-article__btn{
+    margin-bottom: 65px;
+}
