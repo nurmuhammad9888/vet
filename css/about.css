@@ -55,6 +55,8 @@
 }
 .hero-about__item:nth-child(1){
     background: #FFFFFF;
+    background-image: url("../images/klineke-fish.svg");
+    background-size: 752px 434px;
 }
 .hero-about__item-img-one{
     width: 773px;

@@ -3,16 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hero-inspection{
+    margin: 0 auto;
+    width: 1520px;
+    display: block;
+    background-image: url("../images/inspection-beg-img.jpg");
+    background-size: 100% 529px;
+    background-repeat: no-repeat;
+}
 
 /* Hero inspection section start  */
-.hero-inspection__img {
-    width: 1520px;
-    margin: 0 auto;
-}
+
 .hero-inspection__img img{
     width: 100%;
 }
 .hero-inspection__wrap {
+    padding-top: 529px;
 }
 .hero-inspection__list {
     margin-left: 200px;
@@ -28,7 +34,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+}
+.hero-inspection__span a{
+    text-decoration: none;
     color: #949494;
+}
+.hero-inspection__span:nth-child(3) a{
+    color: #333333;
 }
 .hero-inspection__span::before{
     margin-right: 8px;
