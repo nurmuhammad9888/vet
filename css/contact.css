@@ -6,8 +6,6 @@
 .hero-contact {
     margin-left: 183px;
     padding-top: 118px;
-    /* width: 487px;
-    height: 548px; */
     background-image: url("../images/contact-dog.png");
     background-size: contain;
     background-position: calc(50% + 454px) calc(50% + 20px);

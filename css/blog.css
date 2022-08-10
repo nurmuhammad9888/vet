@@ -1,0 +1,118 @@
+
+.hero-blog{
+    padding-top: 118px;
+    background-image: url("../images/blog-cat.png");
+    background-repeat: no-repeat;
+    background-size: 415px 317px;
+    background-position: calc(50% + 331px) calc(50% + -273px);
+}
+.hero-blog__info-wrap {
+    width: 560px;
+    margin-left: 115px;
+    /* margin-top: 118px/; */
+}
+.hero-blog__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333
+}
+.hero-blog__text-wrap {
+    margin-top: 21px;
+    width: 447px;
+}
+.hero-blog__text-wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    
+}
+.hero-blog__item{
+    width: 1308px;
+    margin-top: 132px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+.hero-blog__img{
+    width: 558px;
+    height: 525px;
+}
+.hero-blog__item-text{
+    margin-left: 81px;
+}
+.hero-blog__item-text time{
+    margin-left: 330px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.hero-blog__item-text h3{
+    margin-top: 35px;
+    padding-right: 250px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333333;
+}
+.hero-blog__content-wrap{
+    width: 517px;
+}
+.hero-blog__content-wrap p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.hero-blog__item-text-span{
+    margin-top: 68px;
+    margin-right: 7px;
+    padding: 0;
+}
+.hero-blog__span{
+    padding: 0;
+}
+.blog__list{
+    margin-top: 126px;
+    display: grid;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.blog__item h3{
+    margin-right: 56px;
+}
+.blog__refrish-btn{
+    width: 210px;
+    margin-top: 116px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 40px 16px 43px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    background: #333333;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blog__refrish-btn::before{
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    background-image: url("../images/refrish.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.site-footer--blog{
+    margin-top: 151px;
+}
